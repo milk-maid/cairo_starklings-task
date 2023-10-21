@@ -4,6 +4,11 @@
 // I AM NOT DONE
 
 fn bigger(a: usize, b: usize) -> usize { // Complete this function to return the bigger number!
+if a > b {
+    a
+} else {
+    b
+}
 // Do not use:
 // - another function call
 // - additional variables
